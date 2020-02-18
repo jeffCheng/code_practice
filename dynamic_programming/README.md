@@ -49,12 +49,36 @@ fib(k) only recurses the first time it's called
 - memoized calls
 - nonrecursive work per call  -> time = f(n)
 
+### DP recursion+memorization
 - memoize (*remember*) & re-use solutions to subproblems that help solve the problem
+- time =# subproblems time/subproblem -> constant time
 
-
-
-
+#### Bottom-up algorithm
+```
+def fib(n): 
   
+    # array declaration 
+    f = [0]*(n+1) 
+  
+    # base case assignment 
+    f[1] = 1
+  
+    # calculating the fibonacci and storing the values 
+    for i in xrange(2 , n+1): 
+        f[i] = f[i-1] + f[i-2] 
+    return f[n] 
+```
+- exactly same computation
+- topological sort of subproblem dependency [DAG(Directed acyclic graph)](https://en.wikipedia.org/wiki/Directed_acyclic_graph)
+- can often save space
+
+### Shortest paths:
+Guessing: don't know the answer? guess and try all guessess.(*& take best one*)
+[Optimal Substructure Property](https://www.geeksforgeeks.org/optimal-substructure-property-in-dynamic-programming-dp-2/)
+
+
+
+
 Dynamic Programing:
 
 Pattern

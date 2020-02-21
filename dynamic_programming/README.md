@@ -93,3 +93,11 @@ Decision Making
 Choose minimum (maximum) path among all possible path before the current state, then add value for the current state.
 
 route[i] = min(routes[i-1], routes[i-2], …, routes[i-k], routes[]) + cost[i]
+
+
+## 5 Easy Step to DP:
+1. define subproblems
+2. guess (part of solutions)
+3. relate subproblem solutions
+4. recurse and memoize or build DP table bottom-up approach 
+5. solve original problem 

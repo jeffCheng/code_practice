@@ -93,7 +93,13 @@ Decision Making
 Choose minimum (maximum) path among all possible path before the current state, then add value for the current state.
 
 route[i] = min(routes[i-1], routes[i-2], …, routes[i-k], routes[]) + cost[i]
+ 
 
+## Concept
+- DP ~= "careful brute force"
+- ~= guessing + rescurrsion + memoization
+- ~= shortest paths in some DAG
+- time =# subproblems * time/subproblem (treating recurrsive call as o(1))
 
 ## 5 Easy Step to DP:
 1. define subproblems

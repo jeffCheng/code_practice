@@ -107,3 +107,12 @@ route[i] = min(routes[i-1], routes[i-2], …, routes[i-k], routes[]) + cost[i]
 3. relate subproblem solutions
 4. recurse and memoize or build DP table bottom-up approach 
 5. solve original problem 
+
+### Text justification 
+split text into "good" lines
+
+
+Parent pointers: rememeber
+which guess was best
+
+parent[i] = arg min (....) = j value 

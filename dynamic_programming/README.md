@@ -5,6 +5,7 @@
 
 ## MIT course 
 [19. Dynamic Programming I: Fibonacci, Shortest Paths](https://www.youtube.com/watch?v=OQ5jsbhAv_M&t=1741s)
+[20. Dynamic Programming II: Text Justification, Blackjack](https://www.youtube.com/watch?v=ENyox7kNKeY)
 
 - Idea: 
   - DP likes careful brite force

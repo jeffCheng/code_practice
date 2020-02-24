@@ -5,6 +5,7 @@
 
 ## MIT course 
 [19. Dynamic Programming I: Fibonacci, Shortest Paths](https://www.youtube.com/watch?v=OQ5jsbhAv_M&t=1741s)
+[20. Dynamic Programming II: Text Justification, Blackjack](https://www.youtube.com/watch?v=ENyox7kNKeY)
 
 - Idea: 
   - DP likes careful brite force
@@ -93,7 +94,13 @@ Decision Making
 Choose minimum (maximum) path among all possible path before the current state, then add value for the current state.
 
 route[i] = min(routes[i-1], routes[i-2], …, routes[i-k], routes[]) + cost[i]
+ 
 
+## Concept
+- DP ~= "careful brute force"
+- ~= guessing + rescurrsion + memoization
+- ~= shortest paths in some DAG
+- time =# subproblems * time/subproblem (treating recurrsive call as o(1))
 
 ## 5 Easy Step to DP:
 1. define subproblems
@@ -101,3 +108,12 @@ route[i] = min(routes[i-1], routes[i-2], …, routes[i-k], routes[]) + cost[i]
 3. relate subproblem solutions
 4. recurse and memoize or build DP table bottom-up approach 
 5. solve original problem 
+
+### Text justification 
+split text into "good" lines
+
+
+Parent pointers: rememeber
+which guess was best
+
+parent[i] = arg min (....) = j value 

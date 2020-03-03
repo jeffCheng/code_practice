@@ -30,10 +30,10 @@ class Solution {
                         left++;
                         right--;
                     }else if(nums[left]+nums[right] < sum){
-                        while(left<right && nums[left] == nums[left+1]) left++; //we may not need to this.
+                        while(left<right && nums[left] == nums[left+1]) left++; //we may not need this.
                         left++;
                     }else if(nums[left]+nums[right] > sum){
-                        while(left<right && nums[right] == nums[right-1]) right--; //we may not need to this.
+                        while(left<right && nums[right] == nums[right-1]) right--; //we may not need this.
                         right--;
                     }
                 }

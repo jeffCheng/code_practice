@@ -22,7 +22,15 @@ class KSUM {
             twoSum(res, temp, target, left, right, nums);
             return;
         }
-        
+        /*
+        1. Key point on this function
+        2. define the start and end point 
+        3. k logical
+        4. removed duplicated 
+        5. add current num to list
+        6. recurrisve: target - nums[i], k-1 from i to end
+        7. remove current num because we need to arrage other permutation 
+        */
         // k > 2 : choose nums[i] and do k-1 sum on the rest at right
         for (int i = left; i <= (right-k+1) ; i++) {
             // avoid duplicate

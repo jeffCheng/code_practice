@@ -20,4 +20,4 @@ https://www.youtube.com/watch?v=v9ejT8FO-7I
   - Tiny URL `Constraints` and `User case`
   - 
 2. Step 2: Abstract design
-   - 
+  - 

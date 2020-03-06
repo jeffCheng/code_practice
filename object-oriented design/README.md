@@ -17,4 +17,7 @@ https://www.youtube.com/watch?v=v9ejT8FO-7I
   - Clarify the `system's constraints` and to identify what `use cases` the system needs to satisfy. 
   - The scope of the system
   - Usually, part of what the interviewer wants to see is if you can gather the requirements about the problem at hand, and design a solution that covers them well. Never assume things that were not explicitly stated.
-  - Tiny URL Constraints and User case
+  - Tiny URL `Constraints` and `User case`
+  - 
+2. Step 2: Abstract design
+   - 

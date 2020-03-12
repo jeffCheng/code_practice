@@ -3,16 +3,16 @@ class Solution {
     Find the longest one
     */
     int left;
-    int right;
+    int maxLen;
     public String longestPalindrome(String s) {
         if(s == null || s.length() == 0) return s;
         left = 0;
-        right = 0;
+        maxLen = 0;
         for(int i=0;i<s.length();i++){
             helper(s, i, i);
             helper(s, i, i+1);
         }
-        return s.substring(left+1, left+ right+1);
+        return s.substring(left,left+maxLen);
     }
     
     private void helper(String s, int start , int end){
@@ -20,9 +20,9 @@ class Solution {
             start--;
             end++;
         }
-        if(right<end-start){
-            left = start;
-            right = end- start-1;
+        if(maxLen<end-start){
+            left = start+1; //because while loop will be start index < 0 (start--)
+            maxLen = end - left; // end - start -1;
         }
     }
 }

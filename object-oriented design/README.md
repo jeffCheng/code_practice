@@ -78,3 +78,8 @@ https://www.youtube.com/watch?v=v9ejT8FO-7I
  #### Fundamentals
  
  
+ 
+ ### 
+ - Head First Design Patterns
+ - head first object-oriented analysis & design
+ to deal with the design probelm

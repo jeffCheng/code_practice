@@ -86,14 +86,15 @@ https://www.youtube.com/watch?v=v9ejT8FO-7I
  
  
  ### How to Approach
+ #### Step One: Handle Ambiguity 
+   - Who, How, What
  
- ### Step One: Handle Ambiguity 
+ #### Step Two: Define the Core Objects
  
- ### Step Two: Define the Core Objects
- 
- ### Step Three Analyze Relationships
- 
- ### Step Four: Investigate Actions
- 
- 
+ #### Step Three Analyze Relationships
+   - inherit, one to one , many to many, one to many relationship
+ #### Step Four: Investigate Actions
+   - basic outline 
  ### Degsin Patterns
+ 
+ 

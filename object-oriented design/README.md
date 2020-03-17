@@ -83,3 +83,17 @@ https://www.youtube.com/watch?v=v9ejT8FO-7I
  - Head First Design Patterns
  - head first object-oriented analysis & design
  to deal with the design probelm
+ 
+ 
+ ### How to Approach
+ 
+ ### Step One: Handle Ambiguity 
+ 
+ ### Step Two: Define the Core Objects
+ 
+ ### Step Three Analyze Relationships
+ 
+ ### Step Four: Investigate Actions
+ 
+ 
+ ### Degsin Patterns

@@ -1,5 +1,5 @@
 # Deck of Cards
-Design the data structure for a feneric deck of cards. Explain how you would subclass the data structures to implement blackjack.
+Design the data structure for a generic deck of cards. Explain how you would subclass the data structures to implement blackjack.
 
 ## Solution
 First, we need to recognize that a "generic" deck of cards can mean many things. Generic could mean a standard deck of cards that can play a poker-like game, or it coule even stretch to Uno or baseball cards. It is important to ask your interviewer what she means by generic.

@@ -58,7 +58,7 @@ public class CallHandler{
     /*An employee got free. Look for a waiting call that employee can serve. Return true if we assigined a call, false otherwise.*/
     public boolean assignCall(Employee emp){ ... }
 }
-
+```
 'Call' represents a call from a user. A call has a minimum rank and is assigned to the first employee who can handle it.
 
 ```
@@ -117,7 +117,7 @@ abstract calss Employee{
 }
 ```
 
-THe Respondent, Director, and Manager classes are now just simple extensions of the Employee calss.
+The Respondent, Director, and Manager classes are now just simple extensions of the Employee calss.
 
 ```
 class Manager extends Employee {

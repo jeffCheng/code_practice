@@ -1,4 +1,9 @@
 class Solution {
+    /* we can think like two or three sum problem.
+    *  sum - k -> how many value we left 
+    *  we need to keep add nums[i] to sum inorder to continue numbers
+    *  0,1 -> we have to find the first one(containsKey())
+    */
     public int subarraySum(int[] nums, int k) {
         Map<Integer,Integer> map = new HashMap<Integer,Integer>();
         int sum = 0;
